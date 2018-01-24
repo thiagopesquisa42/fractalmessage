@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{22DAE984-EBA2-42B8-80FB-C898420D1D25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - User Interface", "1.1 - User Interface", "{3A94303C-0149-4374-BCEE-83BA18A6BA4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBrowser", "WebBrowser\WebBrowser.csproj", "{29F3A6C7-87C5-4A79-9A08-4275B04F73A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29F3A6C7-87C5-4A79-9A08-4275B04F73A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F3A6C7-87C5-4A79-9A08-4275B04F73A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F3A6C7-87C5-4A79-9A08-4275B04F73A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F3A6C7-87C5-4A79-9A08-4275B04F73A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A94303C-0149-4374-BCEE-83BA18A6BA4E} = {22DAE984-EBA2-42B8-80FB-C898420D1D25}
+		{29F3A6C7-87C5-4A79-9A08-4275B04F73A0} = {3A94303C-0149-4374-BCEE-83BA18A6BA4E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86E3A8B1-D54F-4760-9402-B5EE1425059D}
+	EndGlobalSection
+EndGlobal
